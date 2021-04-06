@@ -1,0 +1,247 @@
+
+
+@media (min-width:767px){ 
+    
+}
+@media(min-width: 768px) and (max-width: 991px){ 
+    .row{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+
+h1,h2,h3,h4,header nav, .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row{
+    width: 920px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    border: 1px solid black ;
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+header{
+    background-color:#270570;
+}
+
+header h1{
+    text-align:center;
+}
+
+header nav{
+    background-color:#8F8E8F;
+    padding: 10px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin:0
+}
+
+header li{
+    flex-grow: 1;
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+}
+
+header a:hover{
+    background-color: #ddd;
+}
+
+.caroussel{
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.caroussel ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+
+}
+
+.caroussel img{
+    width: 100%;
+}
+
+.caroussel li{
+    width: 100%;
+    float: left;
+}
+
+.caroussel figure{
+    position: relative;
+}
+
+.caroussel figcaption{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: #ffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.caroussel-controller{
+    position: absolute;
+    top: 150px;
+    width: 90%;
+    left: 50px;
+}
+
+.caroussel-controller a{
+    background-color: #aaa;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+    border-radius: 50%;
+}
+
+.caroussel-controller a:first-child{
+    float: left;
+}
+
+.caroussel-controller a:last-child{
+    float: right;
+}
+
+.caroussel-bullets{
+    position: absolute;
+    top: 280px;
+    width: 100px;
+    left: 50px;
+}
+
+.caroussel-bullets ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.caroussel-bullets ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.caroussel-bullets a{
+    width: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #aaa;
+    border: 1px solid #777;
+    border-radius: 50%;
+}
+
+.box{
+    width: 240px;
+    margin: 10px 15px;
+    flex-grow: 1;
+    border: 1px solid #333;
+    background-color: #E5E5E5;
+}
+
+.box:first-child{
+    margin-left: 0;
+}
+
+.box:last-child{
+    margin-right: 0;
+}
+
+.box-img{
+    box-sizing: border-box;
+    width: inherit;
+    height: 250px;
+    width: 285px;
+}
+
+.box h3, .box-2 h3, .box h4{
+    margin: 5px 0;
+}
+
+.box p, .box h3, .box h4, .box-2 h3, .box-2 p{
+    padding: 0 10px;
+}
+
+h3{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.box h4{
+    font-size: 0.9em;
+}
+
+.depoimento p{
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
+.box-2{
+    font-size: 1em;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.box p{
+    font-size: 0.8em;
+}
+
+.box button{
+    background-color: rgb(9, 9, 145);
+    color: #fff;
+    border: 1px solid #006;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin: 3px 10px;
+}
+.Autor{
+    color: black;
+}
+footer div{
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 10px 40px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+footer ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+footer li{
+    flex-grow: 3;
+}
